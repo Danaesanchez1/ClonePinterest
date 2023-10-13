@@ -14,13 +14,14 @@
       color: aliceblue;
 
 }
-.nav{
-    flex-direction: row;
+#navbar-pinterest{
+    display: flex;
     padding: 15px;
     gap: 10;
     justify-content: space-between;
     align-items: center;
     top: 0;
+    
     
 }
 nav img{
@@ -36,4 +37,11 @@ input{
 div{
     margin: 1px;
     padding: 5px;
+}
+@media screen and (max-widht: 960px){
+    .contenedor{
+        grid-template-columns: max-content;
+        grid-row: 1/-8;
+    }
+    
 }
