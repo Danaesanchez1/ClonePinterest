@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: sans-serif;
 }
  
 .contenedor{
@@ -14,12 +15,17 @@
 
 }
 .nav{
+    flex-direction: row;
     display: flex;
     padding: 15px;
     gap: 10;
-    background-color: pink;
     justify-content: space-between;
-
+    align-items: center;
+    
+}
+nav img{
+    width: 20px;
+    height: 20px;
 }
 input{
     width: 65%;
